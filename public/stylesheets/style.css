@@ -1,0 +1,121 @@
+body {
+  /* background-image: url("https://images.pexels.com/photos/28679853/pexels-photo-28679853/free-photo-of-overhead-view-of-person-holding-coffee-cup-outdoors.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"); */
+  background-image: url("https://images.pexels.com/photos/12914430/pexels-photo-12914430.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  /* background-size: cover; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position:center;
+  background-attachment: fixed;
+  /* height: 95vh; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  color: black;
+  font-style: italic;
+  font-size: 30px;
+  font-weight: 900;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input[type="submit"] {
+  border: none;
+  outline: none;
+  background-color: rgb(255, 103, 128); /* Pink background color */
+  border-radius: 10px; /* Rounded corners */
+  padding:15px; /* Space inside the button */
+  font-weight: bold; /* Bold text */
+  margin: 0px 10px; /* Horizontal space around the button */
+}
+
+
+.add {
+  font-size: 20px;
+  padding: 15px;
+  font-weight: lighter;
+}
+
+.add:hover {
+  cursor: pointer;
+  background-color: rgb(250, 175, 187);
+}
+
+input {
+  border: none;
+  outline: none;
+  padding: 18px;
+  border-radius: 10px;
+  font-size: large;
+  font-size: 20px;
+
+}
+ul {
+  width: 100%;
+  padding: 0px;
+}
+span {
+  color: rgb(82, 25, 203);
+  background-color: white;
+  padding: 10px 0px;
+  border: none;
+  outline: none;
+  border-radius: 5px;
+}
+
+#delete {
+  background-color: rgb(254, 41, 41);
+  border-radius: 5px;
+  padding: 10px;
+  margin: 10px;
+}
+
+#delete:hover {
+  background-color: rgb(190, 5, 5);
+  cursor: pointer;
+}
+
+#complete {
+  background-color: lime;
+  padding: 10px;
+
+  /* width: 20%; */
+}
+
+#complete:hover {
+  background-color: rgb(5, 147, 5);
+  cursor: pointer;
+}
+li {
+  /* width: 90%; */
+  margin: 10px;
+  background-color: white;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: sans-serif;
+  align-items: center;
+
+  border-radius: 20px;
+  padding: 10px;
+}
+
+.done {
+  color: red;
+  text-decoration: line-through;
+}
+
+@media (width<= 482px) {
+   input{
+    width: 80%;
+    margin: 20px auto;
+   }
+}
+
